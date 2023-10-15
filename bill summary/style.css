@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 32px;
+    border: 1px solid #fd2329;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px #000;
+}
+
+/*  Header  */
+
+.header-bg {
+    margin: 0 auto;
+    background-color: #fd2329;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 100px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.logo h1 {
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.content-heading {
+    margin: 100px 0 0 100px;
+    font-size: 30px;
+}
+
+.logout button {
+    margin: 30px 0 0 800px;
+    padding: 10px 25px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.logout button:hover {
+    background-color: #ffa395;
+}
+
+/*  Main  */
+
+.main-body {
+    display: flex;
+}
+
+.main-heading {
+    color: blue;
+}
+
+.content-left {
+    width: 48%;
+    margin: 50px 0px 0px 32px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #a2868a;
+    border-radius: 25px;
+}
+
+.content-left h1 {
+    margin-top: 10px;
+    color: #fd2329;
+}
+
+.content-left p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #a2868a;
+}
+
+.a1 {
+    margin-left: 28px;
+}
+
+.b1 {
+    margin-left: 16px;
+}
+
+.c1 {
+    margin-left: 79.5px;
+}
+
+.d1 {
+    margin-left: 89.5px;
+}
+
+.pack-name,
+.total-amount,
+.taxes,
+.total {
+    display: flex;
+    margin-top: 35px;
+}
+
+.a2,
+.b2,
+.c2,
+.d2 {
+    margin-left: 270px;
+}
+
+.content-right {
+    margin: 50px 0px 0px 50px;
+}
+
+.advertisement {
+    border: 1px solid #a2868a;
+    border-radius: 25px;
+    height: 400px;
+    width: 550px;
+}
+
+.end-btn {
+    margin: 30px 0px 0px 115px;
+}
+
+.paynow {
+    padding: 15px 50px 15px 50px;
+    border: transparent;
+    border-radius: 15px;
+    color: white;
+    background-color: #fd2329;
+    cursor: pointer;
+}
+
+.paynow:hover,.download-bill:hover {
+    background-color: #ff787c;
+}
+
+.download-bill {
+    padding: 15px 40px 15px 40px;
+    border: transparent;
+    border-radius: 15px;
+    color: white;
+    background-color: #fd2329;
+    cursor: pointer;
+}
+
+/*  Footer  */
+
+.footer-bg {
+    margin-top: 15px;
+    height: 65px;
+    background-color: #fd2329;
+    border-radius: 0px 0px 25px 25px;
+}
